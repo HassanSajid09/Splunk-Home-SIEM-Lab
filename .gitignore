@@ -1,0 +1,34 @@
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Splunk runtime data
+*.tsidx
+*.journal
+*.raw
+splunk/var/
+splunkforwarder/var/
+dispatch/
+fishbucket/
+
+# Local databases and temporary files
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Operating system
+.DS_Store
+Thumbs.db
